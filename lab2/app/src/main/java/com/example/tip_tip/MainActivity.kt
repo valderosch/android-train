@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         if (cost == null) {
+            binding.tipResult.text = ""
             return
         }
 
